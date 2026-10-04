@@ -19,7 +19,7 @@ $$;
 
 revoke all on function public.current_organization_id() from public;
 revoke execute on function public.current_organization_id() from anon;
-revoke execute on function public.current_organization_id() from authenticated;
+grant execute on function public.current_organization_id() to authenticated;
 
 create policy "users can read own organization"
 on public.organizations
