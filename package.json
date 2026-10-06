@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test:rls": "tsx scripts/rls-security-test.ts"
+    "test:rls": "tsx scripts/rls-security-test.ts",
+    "test:rag": "tsx scripts/rag-security-test.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
